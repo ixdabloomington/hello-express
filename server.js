@@ -7,6 +7,7 @@ var express = require("express"),
 
 router.get('/', function(req, res){
     res.send("Hello world!");
+    console.log("Ping!");
 });
 
 app.use('/', router);
